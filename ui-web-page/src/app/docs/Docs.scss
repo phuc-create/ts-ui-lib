@@ -1,0 +1,21 @@
+@import "../../styles/color";
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-mix($justify, $align) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+.docs {
+  min-height: 100vh;
+  @include flex-center();
+  flex-direction: column;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--tomato);
+}

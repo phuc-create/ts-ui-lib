@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "dom",
+      "esnext",
+      "ES5",
+      "ES2015",
+      "ES2016",
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "sourceMap": true,
+    "importHelpers": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "outDir": "dist/esm",
+  },
+  "include": [
+    "src/**/*.tsx",
+    "src/**/*.ts"
+  ]
+}
