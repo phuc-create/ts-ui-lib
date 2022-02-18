@@ -1,5 +1,6 @@
 import React from 'react'
 import classnames from 'classnames'
+import "./style.scss"
 interface ButtonProps {
     id: string
     type: 'button' | 'submit' | 'reset'

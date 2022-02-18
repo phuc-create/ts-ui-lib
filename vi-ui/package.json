@@ -1,6 +1,6 @@
 {
   "name": "viui-sam",
-  "version": "1.0.10",
+  "version": "1.0.20",
   "description": "VI UI Created by Sam",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -31,10 +31,14 @@
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
     "classnames": "^2.3.1",
+    "css-loader": "^6.6.0",
     "node-sass": "6.0",
     "prettier": "^2.5.1",
     "react": "^17.0.2",
-    "tslib": "^2.3.1"
+    "sass": "^1.49.8",
+    "style-loader": "^3.3.1",
+    "tslib": "^2.3.1",
+    "webpack": "^5.69.1"
   },
   "peerDependencies": {
     "react-dom": "^17.0.2",
