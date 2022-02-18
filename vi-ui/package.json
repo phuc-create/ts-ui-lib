@@ -1,6 +1,6 @@
 {
-  "name": "viui",
-  "version": "1.0.7",
+  "name": "viui-sam",
+  "version": "1.0.10",
   "description": "VI UI Created by Sam",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -8,7 +8,6 @@
     "dist"
   ],
   "devDependencies": {
-    "node-sass": "^7.0.1",
     "nodemon": "^2.0.15",
     "sass-loader": "^12.6.0"
   },
@@ -24,7 +23,7 @@
     "vietnam-ui",
     "vi-typescript"
   ],
-  "author": "phuc-create",
+  "author": "Sam",
   "license": "MIT",
   "dependencies": {
     "@types/jest": "^27.4.0",
@@ -32,6 +31,7 @@
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
     "classnames": "^2.3.1",
+    "node-sass": "6.0",
     "prettier": "^2.5.1",
     "react": "^17.0.2",
     "tslib": "^2.3.1"
