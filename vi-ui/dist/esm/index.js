@@ -1,2 +1,2 @@
-export * from './Button';
+export { default as Button } from './Button';
 //# sourceMappingURL=index.js.map

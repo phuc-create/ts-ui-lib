@@ -1,19 +1,30 @@
 {
-  "name": "vi-ui",
-  "version": "1.0.0",
+  "name": "viui",
+  "version": "1.0.7",
   "description": "VI UI Created by Sam",
-  "main": "index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15",
     "sass-loader": "^12.6.0"
   },
   "scripts": {
-    "build": "rm -rf dist/ && npm run build:esm && npm run build:cjs",
+    "build": "rm -rf dist/ && prettier --write src/ && npm run build:esm && npm run build:cjs ",
     "build:esm": "tsc",
     "build:cjs": "tsc --module CommonJS --outDir dist/cjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sammm",
+  "keywords": [
+    "vi-ui",
+    "vi",
+    "vietnam-ui",
+    "vi-typescript"
+  ],
+  "author": "phuc-create",
   "license": "MIT",
   "dependencies": {
     "@types/jest": "^27.4.0",
@@ -21,11 +32,16 @@
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
     "classnames": "^2.3.1",
+    "prettier": "^2.5.1",
     "react": "^17.0.2",
     "tslib": "^2.3.1"
   },
   "peerDependencies": {
     "react-dom": "^17.0.2",
     "typescript": "^4.5.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuc-create/ts-ui-lib.git"
   }
 }
