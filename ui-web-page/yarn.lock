@@ -1816,6 +1816,13 @@
     "@types/history" "^4.7.11"
     "@types/react" "*"
 
+"@types/react-syntax-highlighter@^13.5.2":
+  "integrity" "sha512-sRZoKZBGKaE7CzMvTTgz+0x/aVR58ZYUTfB7HN76vC+yQnvo1FWtzNARBt0fGqcLGEVakEzMu/CtPzssmanu8Q=="
+  "resolved" "https://registry.npmjs.org/@types/react-syntax-highlighter/-/react-syntax-highlighter-13.5.2.tgz"
+  "version" "13.5.2"
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^17.0.39":
   "integrity" "sha512-UVavlfAxDd/AgAacMa60Azl7ygyQNRwC/DsHZmKgNvPmRR5p70AJ5Q9EAmL2NWOJmeV+vVUI4IAP7GZrN8h8Ug=="
   "resolved" "https://registry.npmjs.org/@types/react/-/react-17.0.39.tgz"
