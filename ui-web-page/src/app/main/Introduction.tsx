@@ -3,7 +3,7 @@ import Icon1 from '../../images/logovn.png'
 import Icon2 from '../../images/map.png'
 import Icon3 from '../../images/woman.png'
 import VietnamFlag from '../../images/flag.png'
-const Introduction = () => {
+function Introduction(): JSX.Element {
     return (
         <div className="concept">
             <div className="concept__header">vissual ui made by NHP</div>

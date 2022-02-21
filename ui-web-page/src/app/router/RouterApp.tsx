@@ -4,26 +4,26 @@ import { Link } from 'react-router-dom'
 
 // import Dashboard from '../dashboard/Dashboard'
 
-const RouterApp = () => {
+const RouterApp = (): JSX.Element => {
     return (
         <>
             <Link className="container__link--l" to="/">
-        Home
+                Home
             </Link>
 
             <Link className="container__link--l" to="/docs">
-        Docs
+                Docs
             </Link>
 
             <Link className="container__link--l" to="/usage">
-        Usage
+                Usage
             </Link>
 
             <a
                 className="container__link--l"
                 href="https://github.com/phuc-create/ui-web-page"
             >
-        GitHub 🔥
+                GitHub 🔥
             </a>
         </>
     )

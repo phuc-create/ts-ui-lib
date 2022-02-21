@@ -2,7 +2,7 @@ import React from 'react'
 import RouterApp from '../router/RouterApp'
 import VietNamFlag from '../../images/vietnam.png'
 
-const Header = () => {
+function Header(): JSX.Element {
     return (
         <header className="container">
             <div className="container__logo">
@@ -10,10 +10,9 @@ const Header = () => {
                 <img
                     className="container__logo-img"
                     src={VietNamFlag}
-                    alt="hello world"
-                />
+                    alt="hello world" />
             </div>
-            <div className="container__link" >
+            <div className="container__link">
                 <RouterApp />
             </div>
         </header>

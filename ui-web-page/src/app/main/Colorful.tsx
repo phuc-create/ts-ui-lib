@@ -5,7 +5,7 @@ import Person from 'images/pt1.jpg'
 import Person2 from 'images/pt2.jpg'
 import Person3 from 'images/pt3.jpg'
 import Person4 from 'images/pt4.jpg'
-const Colorful = () => {
+function Colorful(): JSX.Element {
     const imgArr = [
         { id: 1, img: Person },
         { id: 2, img: Person2 },
@@ -90,9 +90,9 @@ const Colorful = () => {
                     <div className="r-tab">
                         <div className="r-tab-time">December 10,2021</div>
                         <div className="r-tab-title">Release Vi-UI in the first time at NewYork</div>
-                        <div className="r-tab-from">from: <span className="r-tab-from-email">phuc82908@gmail.com</span></div>
+                        <div className="r-tab-from"> from: <span className="r-tab-from-email">phuc82908@gmail.com</span></div>
                         <p className="r-tab-content">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem modi est nam quos maiores assumenda explicabo debitis optio tenetur, laborum impedit. Sunt modi possimus a inventore, iure voluptatibus esse dolor aspernatur, nisi totam ipsum amet veritatis dignissimos in minima id? <br />
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.Exercitationem modi est nam quos maiores assumenda explicabo debitis optio tenetur, laborum impedit.Sunt modi possimus a inventore, iure voluptatibus esse dolor aspernatur, nisi totam ipsum amet veritatis dignissimos in minima id?<br />
                             Have a nice day !<br />
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos at dolorem commodi ex voluptatem consequuntur, expedita id enim pariatur neque!<br />
                             Phuc

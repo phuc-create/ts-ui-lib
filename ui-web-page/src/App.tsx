@@ -5,8 +5,7 @@ import Main from 'app/main/Main'
 import Docs from 'app/docs/Docs'
 import Header from 'app/main/Header'
 import Usage from 'app/usage/Usage'
-import { ColorsProvider } from 'minions-lib'
-const App = () => {
+function App(): JSX.Element {
     return (
         <div className="ui-core">
             <Header />

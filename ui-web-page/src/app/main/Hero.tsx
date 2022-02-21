@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Hero = () => {
+function Hero(): JSX.Element {
     const [currentCount, setCount] = React.useState(0)
 
     const heroContents = [

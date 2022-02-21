@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react'
 import { BiCalendarAlt, BiHomeAlt, BiTime } from 'react-icons/bi'
 import { AiOutlineSetting, AiOutlineUnorderedList } from 'react-icons/ai'
@@ -5,7 +6,7 @@ import { FiMoreVertical } from 'react-icons/fi'
 import { BsGrid1X2 } from 'react-icons/bs'
 import { projectInfors } from '../../data/Data'
 
-const Portfolio = () => {
+function Portfolio(): JSX.Element {
     const infors = [
         {
             total: 45,
@@ -38,7 +39,7 @@ const Portfolio = () => {
 }
 
 export default Portfolio
-const HeaderPortfolio = () => {
+function HeaderPortfolio(): JSX.Element {
     return <div className="pf__box--header">
         <div className="pf__box--header-left">
             <div className="box--header--icons">
@@ -51,7 +52,7 @@ const HeaderPortfolio = () => {
         </div>
     </div>
 }
-const TabBoardPortfolio = () => {
+function TabBoardPortfolio(): JSX.Element {
     return (
         <div className="board--tab">
             <div className="board--tab-icon active">

@@ -2,7 +2,7 @@ import React from 'react'
 import { AiOutlineDoubleRight } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
-const Navigation = () => {
+const Navigation = (): JSX.Element => {
 
   return (
     <div className='nav-demo'>

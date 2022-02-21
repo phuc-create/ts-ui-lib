@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import Navigation from './Navigation'
 import RouterDemo from './RouterDemo'
 
-const Usage = () => {
+const Usage = (): JSX.Element => {
   return (
     <Router>
       <div className='usage'>

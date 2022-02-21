@@ -4,7 +4,7 @@ import './Main.scss'
 import Hero from './Hero'
 import Introduction from './Introduction'
 import Portfolio from './Portfolio'
-const Main = () => {
+function Main(): JSX.Element {
     return (
         <div className="main">
             <Hero />

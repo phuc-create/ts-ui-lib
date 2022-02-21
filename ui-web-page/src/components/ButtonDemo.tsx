@@ -4,7 +4,7 @@ import Demo from 'app/usage/Demo'
 import Stack from 'app/usage/Stack'
 import CodeHighlight from 'app/usage/CodeHighlight'
 
-const ButtonDemo = () => {
+const ButtonDemo = (): JSX.Element => {
   const handleCon = () => console.log('hi')
   return (
     <Demo>

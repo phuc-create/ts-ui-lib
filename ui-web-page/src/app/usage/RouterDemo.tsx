@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react'
 import ButtonDemo from 'components/ButtonDemo'
 import FormDemo from 'components/FormDemo'
 import { Route, Switch } from 'react-router-dom'
 
-const RouterDemo = () => {
+const RouterDemo = (): JSX.Element => {
   const configRouter = [
     {
       id: 1,
