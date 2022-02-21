@@ -1,10 +1,10 @@
 import React from 'react'
 import Colorful from './Colorful'
-import './Dashboard.scss'
+import './Main.scss'
 import Hero from './Hero'
 import Introduction from './Introduction'
 import Portfolio from './Portfolio'
-const Dashboard = () => {
+const Main = () => {
     return (
         <div className="main">
             <Hero />
@@ -15,7 +15,7 @@ const Dashboard = () => {
     )
 }
 
-export default Dashboard
+export default Main
 
 
 

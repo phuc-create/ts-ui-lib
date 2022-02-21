@@ -1,18 +1,22 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
 import './App.scss'
-import Dashboard from './app/dashboard/Dashboard'
-import Docs from './app/docs/Docs'
-import Header from './app/layouts/Header'
+import Main from 'app/main/Main'
+import Docs from 'app/docs/Docs'
+import Header from 'app/main/Header'
+import Usage from 'app/usage/Usage'
+import { ColorsProvider } from 'minions-lib'
 const App = () => {
     return (
         <div className="ui-core">
             <Header />
             <Switch>
-                <Route path="/" exact component={Dashboard} />
+                <Route path="/" exact component={Main} />
                 <Route path="/docs" exact component={Docs} />
+                <Route path="/usage" exact component={Usage} />
             </Switch>
         </div>
+
     )
 }
 

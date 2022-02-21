@@ -1,7 +1,6 @@
 import React from 'react'
 import RouterApp from '../router/RouterApp'
 import VietNamFlag from '../../images/vietnam.png'
-import './layout.scss'
 
 const Header = () => {
     return (

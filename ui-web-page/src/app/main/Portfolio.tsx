@@ -3,7 +3,6 @@ import { BiCalendarAlt, BiHomeAlt, BiTime } from 'react-icons/bi'
 import { AiOutlineSetting, AiOutlineUnorderedList } from 'react-icons/ai'
 import { FiMoreVertical } from 'react-icons/fi'
 import { BsGrid1X2 } from 'react-icons/bs'
-import { Button } from 'vi-ui'
 import { projectInfors } from '../../data/Data'
 
 const Portfolio = () => {

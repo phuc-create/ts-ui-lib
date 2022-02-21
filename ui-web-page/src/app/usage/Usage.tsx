@@ -1,11 +1,20 @@
 import React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
+import Navigation from './Navigation'
+import RouterDemo from './RouterDemo'
 
 const Usage = () => {
-    return (
+  return (
+    <Router>
+      <div className='usage'>
         <div>
-      how it work
+          <Navigation />
         </div>
-    )
+        <RouterDemo />
+      </div>
+
+    </Router>
+  )
 }
 
 export default Usage

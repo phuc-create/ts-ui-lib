@@ -18,7 +18,7 @@ const Introduction = () => {
                         <span className="concept-head-title2">UI</span>
                     </div>
                     <div className="concept-middle">
-Did you know somthing about my country ?
+                        Did you know somthing about my country ?
                     </div>
                     <section className="country-introduction">
                         <img src={Icon1} alt="My country Viet Nam" />
@@ -26,10 +26,10 @@ Did you know somthing about my country ?
                         <img src={Icon3} alt="My country Viet Nam" />
                     </section>
                     <div className="country-content">
-Instead of doing like a robot, let make your life meaningful, take
-in spirit from my current work, but just for fun !!!. I was there
-for the crazy things, I never even think about this, I do not have
-chance, conditions, choice, the only thing I have is ...
+                        Instead of doing like a robot, let make your life meaningful, take
+                        in spirit from my current work, but just for fun !!!. I was there
+                        for the crazy things, I never even think about this, I do not have
+                        chance, conditions, choice, the only thing I have is ...
                     </div>
                 </div>
             </div>

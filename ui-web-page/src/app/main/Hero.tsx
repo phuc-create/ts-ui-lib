@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 const Hero = () => {
     const [currentCount, setCount] = React.useState(0)
 
@@ -24,7 +25,7 @@ const Hero = () => {
             <div className="hero__star"></div>
             {heroContents[currentCount]}
             <Link className="hero__linkExplore" to="/docs">
-  Explore
+                Explore
             </Link>
         </div>
     )
