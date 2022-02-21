@@ -7874,10 +7874,10 @@ minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.5.tgz"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
-minions-lib@^1.0.30:
-  version "1.0.30"
-  resolved "https://registry.npmjs.org/minions-lib/-/minions-lib-1.0.30.tgz"
-  integrity sha512-6sZmACx36Yw5l0LTvdwomLEdSQpeYfbtSGLXTiDtQ+9EYGtVExwykEluGz+CP0wMFODRn8VjJqa0Fbt8dL5rEg==
+minions-lib@^1.0.40:
+  version "1.0.40"
+  resolved "https://registry.yarnpkg.com/minions-lib/-/minions-lib-1.0.40.tgz#4084030b3c368c69a482e46e6f094986dce30786"
+  integrity sha512-MYNBKClcWBN+FA/CIl9odW4R1Tkz/lsHnTBGNdo4sC1HK4nZOBdcKJB7/YqswLPBWtXWhdoO4YU7kwinBvifng==
   dependencies:
     "@types/jest" "^27.4.0"
     "@types/node" "^17.0.18"
@@ -7886,6 +7886,7 @@ minions-lib@^1.0.30:
     classnames "^2.3.1"
     react "*"
     react-dom "*"
+    react-syntax-highlighter "^15.4.5"
     tslib "^2.3.1"
     typescript "^4.5.5"
 
