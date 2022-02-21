@@ -3,6 +3,7 @@ import React from 'react'
 import { Button, Form, TextField } from 'minions-lib'
 import Stack from 'app/usage/Stack'
 import CodeHighlight from 'app/usage/CodeHighlight'
+
 const FormDemo = (): JSX.Element => {
   const [value, setValue] = React.useState({
     username: '',
