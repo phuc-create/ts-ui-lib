@@ -25,7 +25,7 @@ const FormDemo = (): JSX.Element => {
     setValue({ ...value, [e.target.name]: e.target.value })
   }
   return (
-    <Demo>
+    <Demo style={{ paddingLeft: '50px' }}>
       <h2>Form</h2>
       <Stack>
         <Form onSubmit={handleSubmit} className='form-control' style={{ width: '400px' }}>

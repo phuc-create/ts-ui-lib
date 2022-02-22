@@ -2,9 +2,9 @@
 import React from 'react'
 import { BiCalendarAlt, BiHomeAlt, BiTime } from 'react-icons/bi'
 import { AiOutlineSetting, AiOutlineUnorderedList } from 'react-icons/ai'
-import { FiMoreVertical } from 'react-icons/fi'
 import { BsGrid1X2 } from 'react-icons/bs'
 import { projectInfors } from '../../data/Data'
+import { AdvancedCard } from 'minions-lib'
 
 function Portfolio(): JSX.Element {
     const infors = [
@@ -128,59 +128,14 @@ const BoxListPortfolio: React.FC<BoxProps> = ({ list, projectInfors }) => {
             {
                 projectInfors && projectInfors.map((p: any, i: React.Key | null | undefined) => {
                     return (
-                        <Project key={i} p={p} />
+                        <AdvancedCard cardinfor={p} key={i} />
                     )
                 })
             }
         </div>
     )
 }
-interface PPops {
-    p: any
-}
-const Project: React.FC<PPops> = ({ p }): JSX.Element => {
 
-    const color = [
-        '#0984e3', '#00b894', '#d63031', '#6c5ce7', '#EE5A24', '#ED4C67'
-    ]
-    const style = { '--progress': p.progress + '%', backgroundColor: color[Math.floor(Math.random() * color.length)] }
-    return (
-        <div className="list__bx">
-            <FiMoreVertical className="list__bx--iconShowmore" />
-            <div className="list__bx--head">
-                <p>{p.time}</p>
-                <FiMoreVertical className="list__bx--head-icon" />
-            </div>
-            <div className="list__bx--desc">
-                <p className="list__bx--desc-title">{p.major}</p>
-                <p className="list__bx--desc-type">{p.type}</p>
-                <p className="list__bx--desc-datetime">{p.time}</p>
-            </div>
-            <div className="list__bx--progress">
-                <p>Progress</p>
-                <div className="list__bx--progress-line">
-                    <div className="list__bx--progress-line-offset" style={style}></div>
-                </div>
-                <span>{p.progress}</span>
-            </div>
-            <div className="list__bx--time">
-                <div className="list__bx--time-team">
-                    {
-                        p.team && p.team.map((t: boolean | React.ReactChild | React.ReactFragment | React.ReactPortal | null | undefined, i: React.Key | null | undefined) => {
-                            return (
-                                <span key={i}>{t}</span>
-                            )
-                        })
-                    }
-                </div>
-                <div className="list__bx--time-deadline">
-                    {p.deadline > 1 ? p.deadline + ' days left' : p.deadline + ' day left'}
-                </div>
-            </div>
-        </div>
-
-    )
-}
 const BigTitleProjectDemo = () => {
     return (<div className="bigTitle">
         <p>

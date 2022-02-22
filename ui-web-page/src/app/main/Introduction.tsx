@@ -2,11 +2,11 @@ import React from 'react'
 import Icon1 from '../../images/logovn.png'
 import Icon2 from '../../images/map.png'
 import Icon3 from '../../images/woman.png'
-import VietnamFlag from '../../images/flag.png'
+import VietnamFlag from '../../images/minion2.png'
 function Introduction(): JSX.Element {
     return (
         <div className="concept">
-            <div className="concept__header">vissual ui made by NHP</div>
+            <div className="concept__header">Vissual ui made by NHP</div>
             <div className="concept__container">
                 <div className="concept__container--left">
                     <p className="concept--intro">follow the passion of my life</p>
@@ -14,7 +14,7 @@ function Introduction(): JSX.Element {
                 <div className="concept__container--right">
                     <div className="concept-head">
                         <img src={VietnamFlag} alt="Ui viet nam" />
-                        <span className="concept-head-title">Vi</span>-
+                        <span className="concept-head-title">Minions</span>-
                         <span className="concept-head-title2">UI</span>
                     </div>
                     <div className="concept-middle">

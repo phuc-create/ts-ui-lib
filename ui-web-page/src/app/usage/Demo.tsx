@@ -2,8 +2,9 @@ import React from 'react'
 
 interface DemoProps {
   children?: JSX.Element | JSX.Element[];
+  style?: Record<string, unknown>;
 }
-const Demo: React.FC<DemoProps> = ({ children }) => {
+const Demo: React.FC<DemoProps> = ({ children, style }) => {
 
   const renderDemoChild = () => {
     if (!children) return null
@@ -14,8 +15,17 @@ const Demo: React.FC<DemoProps> = ({ children }) => {
     })
   }
   return (
-    <div className='demo-ui'>{renderDemoChild()}</div>
+    <div className='demo-ui' style={style}>{renderDemoChild()}</div>
   )
 }
 
 export default Demo
+
+
+export const WrapDemo: React.FC<{ children: JSX.Element | JSX.Element[] }> = ({ children }) => {
+  return (
+    <div style={{ margin: '30px 0px' }}>
+      {children}
+    </div>
+  )
+}

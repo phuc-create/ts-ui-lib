@@ -15,6 +15,18 @@ const Navigation = (): JSX.Element => {
           <Link to="/usage/form">Form</Link>
           <span className='icon-right'><AiOutlineDoubleRight /></span>
         </li>
+        <li>
+          <Link to="/usage/chose-field">Chose Field</Link>
+          <span className='icon-right'><AiOutlineDoubleRight /></span>
+        </li>
+        <li>
+          <Link to="/usage/card">Card</Link>
+          <span className='icon-right'><AiOutlineDoubleRight /></span>
+        </li>
+        <li>
+          <Link to="/usage/card-advanced">Advanced Card</Link>
+          <span className='icon-right'><AiOutlineDoubleRight /></span>
+        </li>
       </ul>
     </div>
   )

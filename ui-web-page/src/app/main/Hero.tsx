@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Minion from '../../images/mi.png'
 
 function Hero(): JSX.Element {
     const [currentCount, setCount] = React.useState(0)
@@ -24,6 +25,7 @@ function Hero(): JSX.Element {
         <div className="hero">
             <div className="hero__star"></div>
             {heroContents[currentCount]}
+            <img src={Minion} alt='hello world' />
             <Link className="hero__linkExplore" to="/docs">
                 Explore
             </Link>

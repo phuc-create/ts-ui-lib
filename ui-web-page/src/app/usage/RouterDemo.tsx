@@ -2,7 +2,10 @@
 import React from 'react'
 import ButtonDemo from 'components/ButtonDemo'
 import FormDemo from 'components/FormDemo'
+import FormChoseField from 'components/ChooseFieldDemo'
 import { Route, Switch } from 'react-router-dom'
+import CardDemo from 'components/CardDemo'
+import AdvancedCardDemo from 'components/AdvancedCardDemo'
 
 const RouterDemo = (): JSX.Element => {
   const configRouter = [
@@ -28,6 +31,9 @@ const RouterDemo = (): JSX.Element => {
         {/* <Route path="/usage/*" component={ButtonDemo} /> */}
         <Route path="/usage/button" component={ButtonDemo} />
         <Route path="/usage/form" component={FormDemo} />
+        <Route path="/usage/chose-field" component={FormChoseField} />
+        <Route path="/usage/card" component={CardDemo} />
+        <Route path="/usage/card-advanced" component={AdvancedCardDemo} />
 
       </Switch>
     </div>

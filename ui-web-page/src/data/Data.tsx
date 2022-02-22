@@ -1,3 +1,8 @@
+import Person from 'images/pt1.jpg'
+import Person2 from 'images/pt2.jpg'
+import Person3 from 'images/pt3.jpg'
+import Person4 from 'images/pt4.jpg'
+
 export const projectInfors = [
     {
         time: 'December 10,2021',
@@ -49,5 +54,40 @@ export const projectInfors = [
         team: [
             'S', 'D', 'V'
         ]
+    }
+]
+
+export const colorsFull = [
+    {
+        id: 1,
+        img: Person,
+        name: 'Louis',
+        content: 'How To Write Better Advertising Copy Heading',
+        time: '8:30 PM',
+        city: 'New York'
+    },
+    {
+        id: 2,
+        img: Person2,
+        name: 'Louis',
+        content: 'Im not good at this ,but this help me ,so I need to became useful in this',
+        time: '8:30 PM',
+        city: 'New York'
+    },
+    {
+        id: 3,
+        img: Person3,
+        name: 'Louis',
+        content: 'Let make your day more meaningful .',
+        time: '8:30 PM',
+        city: 'New York'
+    },
+    {
+        id: 4,
+        img: Person4,
+        name: 'Louis',
+        content: 'Only reason I work is my family .',
+        time: '8:30 PM',
+        city: 'New York'
     }
 ]

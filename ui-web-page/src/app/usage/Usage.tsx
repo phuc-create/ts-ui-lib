@@ -7,7 +7,10 @@ const Usage = (): JSX.Element => {
   return (
     <Router>
       <div className='usage'>
-        <div>
+        <div style={{
+          width: '350px',
+          height: '100%',
+        }}>
           <Navigation />
         </div>
         <RouterDemo />

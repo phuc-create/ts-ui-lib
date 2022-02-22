@@ -1,15 +1,15 @@
 import React from 'react'
 import RouterApp from '../router/RouterApp'
-import VietNamFlag from '../../images/vietnam.png'
+import Minions2 from '../../images/minion2.png'
 
 function Header(): JSX.Element {
     return (
         <header className="container">
             <div className="container__logo">
-                Vi-UI{' '}
+                Minions-UI{' '}
                 <img
                     className="container__logo-img"
-                    src={VietNamFlag}
+                    src={Minions2}
                     alt="hello world" />
             </div>
             <div className="container__link">

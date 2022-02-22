@@ -1,46 +1,17 @@
 import React from 'react'
-import { BiStar } from 'react-icons/bi'
 import { TiAttachment } from 'react-icons/ti'
 import Person from 'images/pt1.jpg'
 import Person2 from 'images/pt2.jpg'
 import Person3 from 'images/pt3.jpg'
 import Person4 from 'images/pt4.jpg'
+import { Card } from 'minions-lib'
+import { colorsFull } from 'data/Data'
 function Colorful(): JSX.Element {
     const imgArr = [
         { id: 1, img: Person },
         { id: 2, img: Person2 },
         { id: 3, img: Person3 },
         { id: 4, img: Person4 }
-    ]
-    const colorsFull = [
-        {
-            id: 1,
-            img: Person,
-            name: 'Louis',
-            content: 'How To Write Better Advertising Copy Heading',
-            time: '8:30 PM'
-        },
-        {
-            id: 2,
-            img: Person,
-            name: 'Louis',
-            content: 'How To Write Better Advertising Copy Heading',
-            time: '8:30 PM'
-        },
-        {
-            id: 3,
-            img: Person,
-            name: 'Louis',
-            content: 'How To Write Better Advertising Copy Heading',
-            time: '8:30 PM'
-        },
-        {
-            id: 4,
-            img: Person,
-            name: 'Louis',
-            content: 'How To Write Better Advertising Copy Heading',
-            time: '8:30 PM'
-        }
     ]
     return (
         <div className="cc2">
@@ -63,26 +34,7 @@ function Colorful(): JSX.Element {
                     <div className="l-tab">
                         {colorsFull.map(c => {
                             return (
-                                <div className="l-tab__bx" key={c.id}>
-                                    <div className="l-tab__bx--head">
-                                        <div className="img-wrap">
-                                            <img src={c.img} alt="Hello World" />
-                                        </div>
-                                        <div className="name-person">{c.name}</div>
-                                    </div>
-                                    <div className="l-tab__bx--content">{c.content}</div>
-                                    <div className="l-tab__bx--extra">
-                                        <div className="extra-l">
-                                            <input type="checkbox" name="cb" />
-                                            <BiStar className="extra-l-star-icon" />
-                                            <TiAttachment className="extra-l-attachment" />
-                                        </div>
-                                        <div className="extra-r">
-                                            {c.time}
-                                        </div>
-                                    </div>
-                                </div>
-
+                                <Card infors={c} key={c.id} />
                             )
                         })}
 
