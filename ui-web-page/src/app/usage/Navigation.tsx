@@ -27,6 +27,14 @@ const Navigation = (): JSX.Element => {
           <Link to="/usage/card-advanced">Advanced Card</Link>
           <span className='icon-right'><AiOutlineDoubleRight /></span>
         </li>
+        <li>
+          <Link to="/usage/notification">Notification</Link>
+          <span className='icon-right'><AiOutlineDoubleRight /></span>
+        </li>
+        <li>
+          <Link to="/usage/switch">Switch Button</Link>
+          <span className='icon-right'><AiOutlineDoubleRight /></span>
+        </li>
       </ul>
     </div>
   )

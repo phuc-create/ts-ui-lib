@@ -6,6 +6,8 @@ import FormChoseField from 'components/ChooseFieldDemo'
 import { Route, Switch } from 'react-router-dom'
 import CardDemo from 'components/CardDemo'
 import AdvancedCardDemo from 'components/AdvancedCardDemo'
+import NofiDemo from 'components/NofiDemo'
+import SwitchButtonDemo from 'components/SwitchButtonDemo'
 
 const RouterDemo = (): JSX.Element => {
   const configRouter = [
@@ -34,6 +36,8 @@ const RouterDemo = (): JSX.Element => {
         <Route path="/usage/chose-field" component={FormChoseField} />
         <Route path="/usage/card" component={CardDemo} />
         <Route path="/usage/card-advanced" component={AdvancedCardDemo} />
+        <Route path="/usage/notification" component={NofiDemo} />
+        <Route path="/usage/switch" component={SwitchButtonDemo} />
 
       </Switch>
     </div>
